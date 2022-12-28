@@ -1,0 +1,104 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+/* Header part */
+.food-logo-container {
+    text-align: center;
+}
+
+/* category part */
+.category-item a {
+
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.category-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 50%;
+    margin: auto;
+}
+
+.blog-post-img {
+    padding: 1px;
+    margin-left: 50px;
+    margin: auto;
+    border-radius: 10px;
+
+
+
+
+}
+
+.blog-post-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    margin-right: 90px;
+
+}
+
+/* blog post part */
+.blog-post-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 70px;
+    gap: 5px;
+    margin-left: 115px;
+    margin-right: 100px;
+    margin-bottom: 80px;
+
+}
+
+.blog-img {
+    margin: auto;
+    border-radius: 10px;
+}
+
+.blog-post-2 {
+    border: 5px solid rgb(254, 250, 250);
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgb(76, 0, 255);
+}
+
+/* Blog-with-sidebar-container */
+
+.Sidebar {
+    color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    font-size: 30px;
+    gap: 4px;
+    margin-bottom: 80px;
+    margin-left: 110px;
+    margin-right: 90px;
+    text-align: center;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    margin-left: 110px;
+    margin-right: 90px;
+    text-align: center;
+    margin-bottom: 100px;
+
+    
+}
+.img-letter{
+    border:2px solid black;
+background-color:aliceblue ;
+box-shadow:   0 0 10px 5px;
+width: 95%;
+border-radius: 3px;
+padding-top: 10px;
+
+}
